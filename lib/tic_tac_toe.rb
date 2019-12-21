@@ -112,4 +112,4 @@ class TicTacToe
  end
  end
 end
-TicTacToe
+TicTacToe.new
