@@ -58,4 +58,10 @@ class TicTacToe
     move(index, player_token)
     display_board
   end
+  def won?
+    if WIN_COMBINATIONS.include?(@board)     
+      true
+    else
+      false  
+  end
 end
